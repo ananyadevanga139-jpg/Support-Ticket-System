@@ -1,0 +1,19 @@
+# Django core
+Django>=4.2,<5
+
+# Django REST Framework
+djangorestframework==3.16.1
+
+# For handling environment variables
+python-dotenv>=1.0.0
+
+# Optional: Database drivers (adjust if using SQLite / PostgreSQL / MySQL)
+# SQLite comes built-in with Python/Django, so no need
+psycopg2-binary>=2.9.7  # If using PostgreSQL
+mysqlclient>=2.1.1       # If using MySQL
+
+# CORS headers for API requests (if frontend communicates with API)
+django-cors-headers>=3.15.0
+
+# Optional: Additional utilities
+pytz>=2023.3
